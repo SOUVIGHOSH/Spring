@@ -143,4 +143,9 @@ By default, Spring resolves @Autowired entries by type. If more than one bean of
     spring-boot-starter-data-rest - Export simple rest end point
     spring-boot-starter-actuator - monitoring & tracing
 
- 39. AOP is best for implementing cross cutting concerns , like logging security etc.   
+ 39. AOP is best for implementing cross cutting concerns , like logging security etc. 
+  40. Spring JDBC BeanPropertyRowMapper when table column and class field is same , we can also create a custom rowmapper 
+ 41. JPA is interface , hybernate os the implementation , they are basiclly ORM framework
+ 42. spring.h2.console.enabled=true
+ 43. In earlier version of spring, default url will be jdbc:h2:mem:testdb and testdb was created by default. from 2.3.0 onwards, if url is not mentioned it will auto generate database name. auto generated database name can be found in the spring logs.
+ 44. The Bean on which NeanPropertyRowMapper is defined must have a NoArg constructor
